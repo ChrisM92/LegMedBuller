@@ -1,0 +1,75 @@
+/* Empty. Add your own CSS if you like */
+
+.scroll-content {
+
+
+[add any more properties here]
+
+}
+/*Index CSS*/
+.mainwindow, .languageWindow{
+  background-image:url("../img/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  transition:all 0.3s ease;
+}
+
+.headline{
+  width:100%;
+}
+
+.logoBox{
+  width:100%;
+  margin: 0 auto;
+  padding-top:5%;
+}
+
+.row-easy{
+  margin-top:10%;
+}
+
+.easy{
+  width:100%;
+}
+
+.btn1, .btn2, .btn3, .btn4{
+  width:100%;
+}
+/*Index CSS*/
+
+/*----------------------------------------------Language CSS------------------------------------------------------------*/
+.row-top{
+  margin-top:10%;
+}
+
+.row-mid-1{
+  margin-top:10%;
+}
+
+.row-mid-1 button, .row-mid-2 button, .row-mid-3 button{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+/*----------------------------------------------Language CSS------------------------------------------------------------*/
+
+/*OnePlusTask CSS*/
+.shapewindow{
+  background-image:url("../img/background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  transition:all 0.3s ease;
+}
+
+.row-shape{
+  margin-top:10%;
+}
+/*OnePlusTask CSS*/
