@@ -106,7 +106,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         views: {
           'tab-oneplustask': {
             templateUrl: 'templates/tab-oneplustask.html',
-            controller: 'SprogPopulatorCtrl'
+            controller: 'LangTaskCtrl'
           }
         }
       });

@@ -1,11 +1,31 @@
-<ion-view view-title="oneplus">
-
+<ion-view class="view" view-title="oneplus">
   <ion-pane>
-    <ion-content class="shapewindow" ng-controller="SprogPopulatorCtrl">
+    <ion-content class="shapewindow">
       <div class="row-shape">
-        <div class="col-50 col-offset-25"><img ng-src="{{currentImage}}"></div>
-        <img id="option1" src="" alt=""><img id="option2" src="" alt=""><img id="option3" src="" alt="">
+        <div class="col-50 col-offset-25">
+          <img ng-class="taskimg" ng-hide="hideNow" ng-src="{{currentImage}}">
+
+        </div>
+        <div class="row" style="padding: 10% 5% 0 5%;">
+          <div class="col-33"><img style="width: 100%;" id="option1" ng-src="{{image1}}" alt=""
+                                ng-click="testTask('option1')"></div>
+          <div class="col-33"><img style="width: 100%;" id="option2" ng-src="{{image2}}" alt=""
+                                ng-click="testTask('option2')"></div>
+          <div class="col-33"><img style="width: 100%;" id="option3" ng-src="{{image3}}" alt=""
+                                ng-click="testTask('option3')"></div>
+        </div>
       </div>
     </ion-content>
+    <div id="clouds">
+      <div class="cloud x1"><img src="img/baggrunde/cloud1.png"></div>
+      <div class="cloud x2"><img src="img/baggrunde/cloud2.png"></div>
+      <div class="cloud x3"><img src="img/baggrunde/cloud1.png"></div>
+    </div>
+
+    <div id="grass-box">
+      <div class="grass">
+        <img src="img/baggrunde/grass.png" width="1024">
+      </div>
+    </div>
   </ion-pane>
 </ion-view>

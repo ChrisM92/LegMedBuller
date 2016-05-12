@@ -30,31 +30,91 @@ angular.module('starter.controllers', [])
       enableFriends: true
     };
   })
-  .controller('SprogPopulatorCtrl', function ($scope, $http, $interval)
+
+  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window)
   {
-    var stop;
-    $scope.taskCounter = 0;
-    $http.get('Tasks.json')
-      .then(function (res)
+    console.log("controller called");
+    var taskCounter = 0;
+
+    $http.get('Tasks.json').then(function (res)
+    {
+      $scope.tasks = res.data;
+
+      var loop = function ()
       {
-        $scope.tasks = res.data;
-        console.log(res.data);
-
-        stop = $interval(function ()
+        if (taskCounter < $scope.tasks[0].images.length)
         {
-          if ($scope.taskCounter < 3)
+          if ($window.cordova)
           {
-            $scope.currentImage = $scope.tasks.tasks[$scope.taskCounter].image1;
-            $scope.taskCounter++;
-            console.log("new image");
-          } else
-          {
-            $interval.cancel(stop);
+            var audsrc = $scope.tasks[0].audio[taskCounter];
 
-            console.log("done");
+            if (ionic.platform.is('android'))
+            {
+              audsrc = '/android_asset/www' + audsrc;
+            }
+
+            $scope.media.src = new $window.Media($scope.tasks[0].audio[taskCounter]);
+            $scope.media.play();
           }
-        }, 5000);
-      });
+          else
+          {
+            $scope.media = new Audio();
+            $scope.media.src = $scope.tasks[0].audio[taskCounter];
+            $scope.media.play();
+          }
+
+          $scope.currentImage = $scope.tasks[0].images[taskCounter];
+          $timeout(loop, $scope.tasks[0].milliseconds[taskCounter]);
+          console.log("Delay: ", $scope.tasks[0].milliseconds[taskCounter])
+          taskCounter++;
+        }
+        else
+        {
+          $scope.hideNow = true;
+          $scope.image1 = $scope.tasks[0].images[0];
+          $scope.image2 = $scope.tasks[0].images[1];
+          $scope.image3 = $scope.tasks[0].images[2];
+          $scope.media = new Audio();
+          $scope.media.src = $scope.tasks[0].taskaudio;
+          $scope.media.play();
+        }
+      };
+      loop();
+    });
+
+    $scope.testTask = function(option)
+    {
+      if($scope.tasks[0].taskanswer === option)
+      {
+        console.log("correct answer");
+        if ($window.cordova)
+        {
+          var audsrc = "../../aud/Tada.mp3";
+
+          if (ionic.platform.is('android'))
+          {
+            audsrc = '/android_asset/www' + audsrc;
+          }
+
+          $scope.media.src = new $window.Media(audsrc);
+          $scope.media.play();
+        }
+        else
+        {
+
+          $scope.media = new Audio();
+          $scope.media.src = "../../aud/Tada.mp3";
+          $scope.media.play();
+        }
+      }
+      else
+      {
+        console.log("wrong answer");
+        $scope.media = new Audio();
+        $scope.media.src = "../../aud/Wrong.mp3";
+        $scope.media.play();
+      }
+    }
 
   })
 
