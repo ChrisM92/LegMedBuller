@@ -1,298 +1,74 @@
  [
-   /*Vælg form*/
     {
       "id": "task1",
-      "taskaudio": "aud/Vælg_cirkel.mp3",
+      "taskaudio": "../../aud/Vælg_cirkel.mp3",
       "taskanswer": "option2",
       "images":
       [
-        "img/former/BlueTriangle.png",
-        "img/former/RedCircle.png",
-        "img/former/GreenSquare.png"
+        "../../img/former/BlueTriangle.png",
+        "../../img/former/RedCircle.png",
+        "../../img/former/GreenSquare.png"
       ],
       "audio":
       [
-        "aud/Trekant.mp3",
-        "aud/Cirkel.mp3",
-        "aud/Firkant.mp3"
+        "../../aud/Trekant.mp3",
+        "../../aud/Cirkel.mp3",
+        "../../aud/Firkant.mp3"
       ],
       "milliseconds":
       [
-        3000,
-        3000,
-        3000
+        1000,
+        2000,
+        2000
       ]
     },
-
    {
      "id": "task2",
-     "taskaudio": "aud/Vælg_trekant.mp3",
+     "taskaudio": "../../aud/Vælg_trekant.mp3",
      "taskanswer": "option1",
      "images":
      [
-       "img/former/BlueTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/GreenSquare.png"
+       "../../img/former/BlueTriangle.png",
+       "../../img/former/RedCircle.png",
+       "../../img/former/GreenSquare.png"
      ],
      "audio":
      [
-       "aud/Trekant.mp3",
-       "aud/Cirkel.mp3",
-       "aud/Firkant.mp3"
+       "../../aud/Trekant.mp3",
+       "../../aud/Cirkel.mp3",
+       "../../aud/Firkant.mp3"
      ],
      "milliseconds":
      [
-       3000,
-       3000,
-       3000
+       1000,
+       2000,
+       2000
      ]
    },
-
    {
      "id": "task3",
-     "taskaudio": "aud/Vælg_firkant.mp3",
+     "taskaudio": "../../aud/Vælg_firkant.mp3",
      "taskanswer": "option3",
      "images":
      [
-       "img/former/BlueTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/GreenSquare.png"
+       "../../img/former/BlueTriangle.png",
+       "../../img/former/RedCircle.png",
+       "../../img/former/GreenSquare.png"
      ],
      "audio":
      [
-       "aud/Trekant.mp3",
-       "aud/Cirkel.mp3",
-       "aud/Firkant.mp3"
+       "../../aud/Trekant.mp3",
+       "../../aud/Cirkel.mp3",
+       "../../aud/Firkant.mp3"
      ],
      "milliseconds":
      [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   /*Vælg form*/
-
-   /*Vælg farve form*/
-   {
-     "id": "task4",
-     "taskaudio": "aud/Vælg_blå_cirkel.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/RedTriangle.png",
-       "img/former/BlueCircle.png",
-       "img/former/GreenSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Rød_trekant.mp3",
-       "aud/Blå_cirkel.mp3",
-       "aud/Grøn_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task5",
-     "taskaudio": "aud/Vælg_grøn_cirkel.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/BlueTriangle.png",
-       "img/former/GreenCircle.png",
-       "img/former/RedSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Blå_trekant.mp3",
-       "aud/Grøn_cirkel.mp3",
-       "aud/Rød_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task6",
-     "taskaudio": "aud/Vælg_rød_cirkel.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/BlueTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/GreenSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Blå_trekant.mp3",
-       "aud/Rød_cirkel.mp3",
-       "aud/Grøn_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task7",
-     "taskaudio": "aud/Vælg_blå_firkant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/GreenTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/BlueSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Grøn_trekant.mp3",
-       "aud/Rød_cirkel.mp3",
-       "aud/Blå_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task8",
-     "taskaudio": "aud/Vælg_grøn_firkant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/BlueTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/GreenSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Blå_trekant.mp3",
-       "aud/Rød_cirkel.mp3",
-       "aud/Grøn_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task9",
-     "taskaudio": "aud/Vælg_rød_firkant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/BlueTriangle.png",
-       "img/former/GreenCircle.png",
-       "img/former/RedSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Blå_trekant.mp3",
-       "aud/Grøn_cirkel.mp3",
-       "aud/Rød_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task8",
-     "taskaudio": "aud/Vælg_grøn_trekant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/GreenTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/BlueSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Grøn_trekant.mp3",
-       "aud/Rød_cirkel.mp3",
-       "aud/Blå_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task8",
-     "taskaudio": "aud/Vælg_blå_trekant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/BlueTriangle.png",
-       "img/former/RedCircle.png",
-       "img/former/GreenSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Blå_trekant.mp3",
-       "aud/Rød_cirkel.mp3",
-       "aud/Grøn_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
-     ]
-   },
-
-   {
-     "id": "task8",
-     "taskaudio": "aud/Vælg_rød_trekant.mp3",
-     "taskanswer": "option3",
-     "images":
-     [
-       "img/former/RedTriangle.png",
-       "img/former/BlueCircle.png",
-       "img/former/GreenSquare.png"
-     ],
-     "audio":
-     [
-       "aud/Rød_trekant.mp3",
-       "aud/Blå_cirkel.mp3",
-       "aud/Grøn_firkant.mp3"
-     ],
-     "milliseconds":
-     [
-       3000,
-       3000,
-       3000
+       1000,
+       2000,
+       2000
      ]
    }
-   /*Vælg farve form*/
-
- ]
+  ]
 
 
 
