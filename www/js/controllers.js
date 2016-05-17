@@ -31,10 +31,13 @@ angular.module('starter.controllers', [])
     };
   })
 
-  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window)
+  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window, $location)
   {
     console.log("controller called");
     var taskCounter = 0;
+
+    var id = $location.search().id - 1;
+    console.log("id: ", id);
 
     $http.get('Tasks.json').then(function (res)
     {
@@ -42,49 +45,49 @@ angular.module('starter.controllers', [])
 
       var loop = function ()
       {
-        if (taskCounter < $scope.tasks[0].images.length)
+        if (taskCounter < $scope.tasks[id].images.length)
         {
           if ($window.cordova)
           {
-            var audsrc = $scope.tasks[0].audio[taskCounter];
+            var audsrc = $scope.tasks[id].audio[taskCounter];
 
             if (ionic.platform.is('android'))
             {
               audsrc = '/android_asset/www' + audsrc;
             }
 
-            $scope.media.src = new $window.Media($scope.tasks[0].audio[taskCounter]);
+            $scope.media.src = new $window.Media($scope.tasks[id].audio[taskCounter]);
             $scope.media.play();
           }
           else
           {
             $scope.media = new Audio();
-            $scope.media.src = $scope.tasks[0].audio[taskCounter];
+            $scope.media.src = $scope.tasks[id].audio[taskCounter];
             $scope.media.play();
           }
 
-          $scope.currentImage = $scope.tasks[0].images[taskCounter];
-          $timeout(loop, $scope.tasks[0].milliseconds[taskCounter]);
-          console.log("Delay: ", $scope.tasks[0].milliseconds[taskCounter])
+          $scope.currentImage = $scope.tasks[id].images[taskCounter];
+          $timeout(loop, $scope.tasks[id].milliseconds[taskCounter]);
+          console.log("Delay: ", $scope.tasks[id].milliseconds[taskCounter])
           taskCounter++;
         }
         else
         {
           $scope.hideNow = true;
-          $scope.image1 = $scope.tasks[0].images[0];
-          $scope.image2 = $scope.tasks[0].images[1];
-          $scope.image3 = $scope.tasks[0].images[2];
+          $scope.image1 = $scope.tasks[id].images[0];
+          $scope.image2 = $scope.tasks[id].images[1];
+          $scope.image3 = $scope.tasks[id].images[2];
           $scope.media = new Audio();
-          $scope.media.src = $scope.tasks[0].taskaudio;
+          $scope.media.src = $scope.tasks[id].taskaudio;
           $scope.media.play();
         }
       };
       loop();
     });
 
-    $scope.testTask = function(option)
+    $scope.testTask = function (option)
     {
-      if($scope.tasks[0].taskanswer === option)
+      if ($scope.tasks[id].taskanswer === option)
       {
         console.log("correct answer");
         if ($window.cordova)
