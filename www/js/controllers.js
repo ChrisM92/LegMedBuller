@@ -40,8 +40,10 @@ angular.module('starter.controllers', [])
     console.log("LangTaskCtrl controller called");
 
     var id = $stateParams.id - 1;
+    $scope.idNext = id + 2;
     console.log("id: ", id);
     var closed = false;
+    $scope.showMenuButtons = false;
 
     $http.get('Tasks.json').then(function (res)
     {
@@ -131,6 +133,8 @@ angular.module('starter.controllers', [])
           $scope.media.src = "../../aud/Correct.mp3";
           $scope.media.play();
         }
+
+        $scope.showMenuButtons = true;
       }
       else
       {

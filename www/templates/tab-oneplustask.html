@@ -8,12 +8,24 @@
         </div>
         <div class="row" style="padding: 10% 5% 0 5%;">
           <div class="col-33"><img style="width: 100%;" id="option1" ng-src="{{image1}}" alt=""
-                                ng-click="testTask('option1')"></div>
+                                   ng-click="testTask('option1')"></div>
           <div class="col-33"><img style="width: 100%;" id="option2" ng-src="{{image2}}" alt=""
-                                ng-click="testTask('option2')"></div>
+                                   ng-click="testTask('option2')"></div>
           <div class="col-33"><img style="width: 100%;" id="option3" ng-src="{{image3}}" alt=""
-                                ng-click="testTask('option3')"></div>
+                                   ng-click="testTask('option3')"></div>
         </div>
+      </div>
+      <div class="row" ng-show="showMenuButtons">
+          <div class="col col-25 col-offset-25 text-center"  ng-click="playButtonSound()">
+            <a href="#/tab/tasks" style="text-decoration: none">
+              <i class="icon ion-reply" style="font-size: 50px; color:white;"></i>
+            </a>
+          </div>
+          <div class="col col-25 text-center"  ng-click="playButtonSound()">
+            <a href="#/tab/oneplustask/{{idNext}}" style="text-decoration: none">
+              <i class="icon ion-forward" style="font-size: 50px; color:white;"></i>
+            </a>
+          </div>
       </div>
     </ion-content>
     <div id="clouds">
