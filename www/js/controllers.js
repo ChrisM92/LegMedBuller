@@ -1,22 +1,26 @@
 angular.module('starter.controllers', [])
 
-  .controller('DashCtrl', function () {})
+  .controller('MainCtrl', function ($scope)
+  {
+    $scope.playButtonSound = function()
+    {
+      console.log("Played button sound");
+      $scope.media = new Audio();
+      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.play();
+    }
+  })
 
   .controller('LanguageCtrl', function ($scope, Chats)
   {
-    // With the new view caching in Ionic, Controllers are only called
-    // when they are recreated or on app start, instead of every page change.
-    // To listen for when this page is active (for example, to refresh data),
-    // listen for the $ionicView.enter event:
-    //
-    //$scope.$on('$ionicView.enter', function(e) {
-    //});
-
-    $scope.chats = Chats.all();
-    $scope.remove = function (chat)
+    console.log("LanguageCtrl controller called");
+    $scope.playButtonSound = function()
     {
-      Chats.remove(chat);
-    };
+      console.log("Played button sound");
+      $scope.media = new Audio();
+      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.play();
+    }
   })
 
   .controller('ChatDetailCtrl', function ($scope, $stateParams, Chats)
@@ -31,20 +35,28 @@ angular.module('starter.controllers', [])
     };
   })
 
-  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window, $location)
+  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window, $location, $stateParams)
   {
-    console.log("controller called");
-    var taskCounter = 0;
+    console.log("LangTaskCtrl controller called");
 
-    var id = $location.search().id - 1;
+    var id = $stateParams.id - 1;
     console.log("id: ", id);
+    var closed = false;
 
     $http.get('Tasks.json').then(function (res)
     {
+      var taskCounter = 0;
+
+      console.log("id: ", id);
       $scope.tasks = res.data;
+
 
       var loop = function ()
       {
+        if(closed)
+        {
+          return;
+        }
         if (taskCounter < $scope.tasks[id].images.length)
         {
           if ($window.cordova)
@@ -82,17 +94,27 @@ angular.module('starter.controllers', [])
           $scope.media.play();
         }
       };
+
       loop();
     });
 
+    $scope.$on('$destroy', function ()
+    {
+      console.log("LangTaskCtrl controller Destroyed!");
+      closed = true;
+      $scope.media.pause();
+    })
+
     $scope.testTask = function (option)
     {
+      var id = $stateParams.id - 1;
+
       if ($scope.tasks[id].taskanswer === option)
       {
         console.log("correct answer");
         if ($window.cordova)
         {
-          var audsrc = "../../aud/Tada.mp3";
+          var audsrc = "../../aud/Correct.mp3";
 
           if (ionic.platform.is('android'))
           {
@@ -106,27 +128,63 @@ angular.module('starter.controllers', [])
         {
 
           $scope.media = new Audio();
-          $scope.media.src = "../../aud/Tada.mp3";
+          $scope.media.src = "../../aud/Correct.mp3";
           $scope.media.play();
         }
       }
       else
       {
         console.log("wrong answer");
-        $scope.media = new Audio();
-        $scope.media.src = "../../aud/Wrong.mp3";
-        $scope.media.play();
+        if ($window.cordova)
+        {
+          var audsrc = "../../aud/Error.mp3";
+
+          if (ionic.platform.is('android'))
+          {
+            audsrc = '/android_asset/www' + audsrc;
+          }
+
+          $scope.media.src = new $window.Media(audsrc);
+          $scope.media.play();
+        }
+        else
+        {
+
+          $scope.media = new Audio();
+          $scope.media.src = "../../aud/Error.mp3";
+          $scope.media.play();
+        }
       }
     }
 
   })
 
-  .controller('SprogCtrl', function ($scope)
-  {
-
-  })
+  //.controller('LangaugeCtrl', function ($scope)
+  //{
+    //console.log("LanguageCtrl controller called");
+    //$scope.playButtonSound = function()
+  //  {
+  //    console.log("Played button sound");
+  //    $scope.media = new Audio();
+  //    $scope.media.src = "../../aud/button-14.mp3";
+  //    $scope.media.play();
+  //  }
+  //})
 
   .controller('TaskCtrl', function ($scope)
   {
+    console.log("TaskCtrl controller called");
 
+    $scope.playButtonSound = function()
+    {
+      console.log("Played button sound");
+      $scope.media = new Audio();
+      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.play();
+    }
+
+    $scope.$on('$destroy', function ()
+    {
+      console.log("Spyt ud");
+    })
   });

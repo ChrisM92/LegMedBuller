@@ -33,7 +33,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     });
   })
 
-  .config(function ($stateProvider, $urlRouterProvider)
+  .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider)
   {
 
     // Ionic uses AngularUI Router which uses the concept of states
@@ -54,9 +54,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       .state('tab.main', {
         url: '/main',
         views: {
-          'tab-dash': {
+          'tab-main': {
             templateUrl: 'templates/tab-main.html',
-            controller: 'DashCtrl'
+            controller: 'MainCtrl'
           }
         }
       })
@@ -102,7 +102,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       })
 
       .state('tab.oneplustask', {
-        url: '/oneplustask',
+        url: '/oneplustask/:id',
         views: {
           'tab-oneplustask': {
             templateUrl: 'templates/tab-oneplustask.html',
@@ -114,4 +114,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/tab/main');
 
+    $ionicConfigProvider.views.maxCache(0);
   });
