@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.src = "../../aud/interface/button-14.mp3";
       $scope.media.play();
     }
   })
@@ -18,7 +18,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.src = "../../aud/interface/button-14.mp3";
       $scope.media.play();
     }
   })
@@ -35,9 +35,9 @@ angular.module('starter.controllers', [])
     };
   })
 
-  .controller('LangTaskCtrl', function ($scope, $http, $timeout, $window, $location, $stateParams)
+  .controller('ChoiceGameCtrl', function ($scope, $http, $timeout, $window, $location, $stateParams)
   {
-    console.log("LangTaskCtrl controller called");
+    console.log("ChoiceGameCtrl controller called");
 
     var id = $stateParams.id - 1;
     $scope.idNext = id + 2;
@@ -116,7 +116,7 @@ angular.module('starter.controllers', [])
         console.log("correct answer");
         if ($window.cordova)
         {
-          var audsrc = "../../aud/Correct.mp3";
+          var audsrc = "../../aud/interface/Correct.mp3";
 
           if (ionic.platform.is('android'))
           {
@@ -130,7 +130,7 @@ angular.module('starter.controllers', [])
         {
 
           $scope.media = new Audio();
-          $scope.media.src = "../../aud/Correct.mp3";
+          $scope.media.src = "../../aud/interface/Correct.mp3";
           $scope.media.play();
         }
 
@@ -141,7 +141,7 @@ angular.module('starter.controllers', [])
         console.log("wrong answer");
         if ($window.cordova)
         {
-          var audsrc = "../../aud/Error.mp3";
+          var audsrc = "../../aud/interface/Error.mp3";
 
           if (ionic.platform.is('android'))
           {
@@ -155,7 +155,7 @@ angular.module('starter.controllers', [])
         {
 
           $scope.media = new Audio();
-          $scope.media.src = "../../aud/Error.mp3";
+          $scope.media.src = "../../aud/interface/Error.mp3";
           $scope.media.play();
         }
       }
@@ -183,7 +183,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/button-14.mp3";
+      $scope.media.src = "../../aud/interface/button-14.mp3";
       $scope.media.play();
     }
 

@@ -95,18 +95,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         url: '/tasks',
         views: {
           'tab-tasks': {
-            templateUrl: 'templates/tab-tasks.html',
+            templateUrl: 'templates/tab-langTasks.html',
             controller: 'TaskCtrl'
           }
         }
       })
 
       .state('tab.oneplustask', {
-        url: '/oneplustask/:id',
+        url: '/choiceGame/:id',
         views: {
-          'tab-oneplustask': {
-            templateUrl: 'templates/tab-oneplustask.html',
-            controller: 'LangTaskCtrl'
+          'tab-choiceGame': {
+            templateUrl: 'templates/tab-choiceGame.html',
+            controller: 'ChoiceGameCtrl'
           }
         }
       });

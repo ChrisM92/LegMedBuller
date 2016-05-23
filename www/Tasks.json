@@ -2,7 +2,7 @@
 
   {
     "id": "task1",
-    "taskaudio": "../../aud/Vælg_cirkel.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_cirkel.mp3",
     "taskanswer": "option2",
     "images":
     [
@@ -12,21 +12,21 @@
     ],
     "audio":
     [
-      "../../aud/Trekant.mp3",
-      "../../aud/Cirkel.mp3",
-      "../../aud/Firkant.mp3"
+      "../../aud/shapes/Trekant.mp3",
+      "../../aud/shapes/Cirkel.mp3",
+      "../../aud/shapes/Firkant.mp3"
     ],
     "milliseconds":
     [
-      30,
-      30,
-      300
+      3000,
+      3000,
+      3000
     ]
   },
 
   {
     "id": "task2",
-    "taskaudio": "../../aud/Vælg_trekant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_trekant.mp3",
     "taskanswer": "option1",
     "images":
     [
@@ -36,9 +36,9 @@
     ],
     "audio":
     [
-      "../../aud/Trekant.mp3",
-      "../../aud/Cirkel.mp3",
-      "../../aud/Firkant.mp3"
+      "../../aud/shapes/Trekant.mp3",
+      "../../aud/shapes/Cirkel.mp3",
+      "../../aud/shapes/Firkant.mp3"
     ],
     "milliseconds":
     [
@@ -50,7 +50,7 @@
 
   {
     "id": "task3",
-    "taskaudio": "../../aud/Vælg_firkant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_firkant.mp3",
     "taskanswer": "option3",
     "images":
     [
@@ -60,9 +60,9 @@
     ],
     "audio":
     [
-      "../../aud/Trekant.mp3",
-      "../../aud/Cirkel.mp3",
-      "../../aud/Firkant.mp3"
+      "../../aud/shapes/Trekant.mp3",
+      "../../aud/shapes/Cirkel.mp3",
+      "../../aud/shapes/Firkant.mp3"
     ],
     "milliseconds":
     [
@@ -75,8 +75,8 @@
 
   {
     "id": "task4",
-    "taskaudio": "../../aud/Vælg_blå_cirkel.mp3",
-    "taskanswer": "option3",
+    "taskaudio": "../../aud/shapes/Vælg_blå_cirkel.mp3",
+    "taskanswer": "option2",
     "images":
     [
       "../../img/former/RedTriangle.png",
@@ -85,9 +85,9 @@
     ],
     "audio":
     [
-      "../../aud/Rød_trekant.mp3",
-      "../../aud/Blå_cirkel.mp3",
-      "../../aud/Grøn_firkant.mp3"
+      "../../aud/shapes/Rød_trekant.mp3",
+      "../../aud/shapes/Blå_cirkel.mp3",
+      "../../aud/shapes/Grøn_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -99,8 +99,8 @@
 
   {
     "id": "task5",
-    "taskaudio": "../../aud/Vælg_grøn_cirkel.mp3",
-    "taskanswer": "option3",
+    "taskaudio": "../../aud/shapes/Vælg_grøn_cirkel.mp3",
+    "taskanswer": "option2",
     "images":
     [
       "../../img/former/BlueTriangle.png",
@@ -109,9 +109,9 @@
     ],
     "audio":
     [
-      "../../aud/Blå_trekant.mp3",
-      "../../aud/Grøn_cirkel.mp3",
-      "../../aud/Rød_firkant.mp3"
+      "../../aud/shapes/Blå_trekant.mp3",
+      "../../aud/shapes/Grøn_cirkel.mp3",
+      "../../aud/shapes/Rød_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -123,8 +123,8 @@
 
   {
     "id": "task6",
-    "taskaudio": "../../aud/Vælg_rød_cirkel.mp3",
-    "taskanswer": "option3",
+    "taskaudio": "../../aud/shapes/Vælg_rød_cirkel.mp3",
+    "taskanswer": "option2",
     "images":
     [
       "../../img/former/BlueTriangle.png",
@@ -133,9 +133,9 @@
     ],
     "audio":
     [
-      "../../aud/Blå_trekant.mp3",
-      "../../aud/Rød_cirkel.mp3",
-      "../../aud/Grøn_firkant.mp3"
+      "../../aud/shapes/Blå_trekant.mp3",
+      "../../aud/shapes/Rød_cirkel.mp3",
+      "../../aud/shapes/Grøn_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -147,7 +147,7 @@
 
   {
     "id": "task7",
-    "taskaudio": "../../aud/Vælg_blå_firkant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_blå_firkant.mp3",
     "taskanswer": "option3",
     "images":
     [
@@ -157,9 +157,9 @@
     ],
     "audio":
     [
-      "../../aud/Grøn_trekant.mp3",
-      "../../aud/Rød_cirkel.mp3",
-      "../../aud/Blå_firkant.mp3"
+      "../../aud/shapes/Grøn_trekant.mp3",
+      "../../aud/shapes/Rød_cirkel.mp3",
+      "../../aud/shapes/Blå_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -171,7 +171,7 @@
 
   {
     "id": "task8",
-    "taskaudio": "../../aud/Vælg_grøn_firkant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_grøn_firkant.mp3",
     "taskanswer": "option3",
     "images":
     [
@@ -181,9 +181,9 @@
     ],
     "audio":
     [
-      "../../aud/Blå_trekant.mp3",
-      "../../aud/Rød_cirkel.mp3",
-      "../../aud/Grøn_firkant.mp3"
+      "../../aud/shapes/Blå_trekant.mp3",
+      "../../aud/shapes/Rød_cirkel.mp3",
+      "../../aud/shapes/Grøn_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -195,7 +195,7 @@
 
   {
     "id": "task9",
-    "taskaudio": "../../aud/Vælg_rød_firkant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_rød_firkant.mp3",
     "taskanswer": "option3",
     "images":
     [
@@ -205,9 +205,9 @@
     ],
     "audio":
     [
-      "../../aud/Blå_trekant.mp3",
-      "../../aud/Grøn_cirkel.mp3",
-      "../../aud/Rød_firkant.mp3"
+      "../../aud/shapes/Blå_trekant.mp3",
+      "../../aud/shapes/Grøn_cirkel.mp3",
+      "../../aud/shapes/Rød_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -219,8 +219,8 @@
 
   {
     "id": "task8",
-    "taskaudio": "../../aud/Vælg_grøn_trekant.mp3",
-    "taskanswer": "option3",
+    "taskaudio": "../../aud/shapes/Vælg_grøn_trekant.mp3",
+    "taskanswer": "option1",
     "images":
     [
       "../../img/former/GreenTriangle.png",
@@ -229,9 +229,9 @@
     ],
     "audio":
     [
-      "../../aud/Grøn_trekant.mp3",
-      "../../aud/Rød_cirkel.mp3",
-      "../../aud/Blå_firkant.mp3"
+      "../../aud/shapes/Grøn_trekant.mp3",
+      "../../aud/shapes/Rød_cirkel.mp3",
+      "../../aud/shapes/Blå_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -244,7 +244,7 @@
   {
     "id": "task8",
     "taskaudio": "../../aud/Vælg_blå_trekant.mp3",
-    "taskanswer": "option3",
+    "taskanswer": "option1",
     "images":
     [
       "../../img/former/BlueTriangle.png",
@@ -253,9 +253,9 @@
     ],
     "audio":
     [
-      "../../aud/Blå_trekant.mp3",
-      "../../aud/Rød_cirkel.mp3",
-      "../../aud/Grøn_firkant.mp3"
+      "../../aud/shapes/Blå_trekant.mp3",
+      "../../aud/shapes/Rød_cirkel.mp3",
+      "../../aud/shapes/Grøn_firkant.mp3"
     ],
     "milliseconds":
     [
@@ -267,8 +267,8 @@
 
   {
     "id": "task8",
-    "taskaudio": "../../aud/Vælg_rød_trekant.mp3",
-    "taskanswer": "option3",
+    "taskaudio": "../../aud/shapes/Vælg_rød_trekant.mp3",
+    "taskanswer": "option1",
     "images":
     [
       "../../img/former/RedTriangle.png",
@@ -277,9 +277,9 @@
     ],
     "audio":
     [
-      "../../aud/Rød_trekant.mp3",
-      "../../aud/Blå_cirkel.mp3",
-      "../../aud/Grøn_firkant.mp3"
+      "../../aud/shapes/Rød_trekant.mp3",
+      "../../aud/shapes/Blå_cirkel.mp3",
+      "../../aud/shapes/Grøn_firkant.mp3"
     ],
     "milliseconds":
     [
