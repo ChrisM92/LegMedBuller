@@ -2,6 +2,7 @@
 
   {
     "id": "task1",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_cirkel.mp3",
     "taskanswer": "option2",
     "images":
@@ -26,6 +27,7 @@
 
   {
     "id": "task2",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -50,6 +52,7 @@
 
   {
     "id": "task3",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_firkant.mp3",
     "taskanswer": "option3",
     "images":
@@ -75,6 +78,7 @@
 
   {
     "id": "task4",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_blå_cirkel.mp3",
     "taskanswer": "option2",
     "images":
@@ -99,6 +103,7 @@
 
   {
     "id": "task5",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_grøn_cirkel.mp3",
     "taskanswer": "option2",
     "images":
@@ -123,6 +128,7 @@
 
   {
     "id": "task6",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_rød_cirkel.mp3",
     "taskanswer": "option2",
     "images":
@@ -147,6 +153,7 @@
 
   {
     "id": "task7",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_blå_firkant.mp3",
     "taskanswer": "option3",
     "images":
@@ -171,6 +178,7 @@
 
   {
     "id": "task8",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_grøn_firkant.mp3",
     "taskanswer": "option3",
     "images":
@@ -195,6 +203,7 @@
 
   {
     "id": "task9",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_rød_firkant.mp3",
     "taskanswer": "option3",
     "images":
@@ -219,6 +228,7 @@
 
   {
     "id": "task10",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_grøn_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -243,6 +253,7 @@
 
   {
     "id": "task11",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_blå_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -267,6 +278,7 @@
 
   {
     "id": "task12",
+    "difficulty": "langOneTasks",
     "taskaudio": "../../aud/shapes/Vælg_rød_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -289,8 +301,16 @@
     ]
   },
 
+
+
+
+
+
+
+
   {
     "id": "task13",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_cat.mp3",
     "taskanswer": "option1",
     "images":
@@ -315,6 +335,7 @@
 
   {
     "id": "task14",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_dog.mp3",
     "taskanswer": "option2",
     "images":
@@ -338,6 +359,7 @@
   },
   {
     "id": "task15",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_rabbit.mp3",
     "taskanswer": "option3",
     "images":
@@ -361,6 +383,7 @@
   },
   {
     "id": "task16",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_sheep.mp3",
     "taskanswer": "option1",
     "images":
@@ -384,6 +407,7 @@
   },
   {
     "id": "task17",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_pig.mp3",
     "taskanswer": "option2",
     "images":
@@ -407,6 +431,7 @@
   },
   {
     "id": "task18",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_cow.mp3",
     "taskanswer": "option3",
     "images":
@@ -430,6 +455,7 @@
   },
   {
     "id": "task19",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_horse.mp3",
     "taskanswer": "option1",
     "images":
@@ -453,6 +479,7 @@
   },
   {
     "id": "task20",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_hen.mp3",
     "taskanswer": "option2",
     "images":
@@ -476,6 +503,7 @@
   },
   {
     "id": "task21",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_bear.mp3",
     "taskanswer": "option3",
     "images":
@@ -499,6 +527,7 @@
   },
   {
     "id": "task22",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_eagel.mp3",
     "taskanswer": "option1",
     "images":
@@ -522,6 +551,7 @@
   },
   {
     "id": "task23",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_fox.mp3",
     "taskanswer": "option2",
     "images":
@@ -545,6 +575,7 @@
   },
   {
   "id": "task24",
+    "difficulty": "langThreeTasks",
   "taskaudio": "../../aud/animals/select_hamster.mp3",
   "taskanswer": "option3",
   "images":
@@ -568,6 +599,7 @@
 },
   {
     "id": "task25",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_owl.mp3",
     "taskanswer": "option1",
     "images":
@@ -591,6 +623,7 @@
   },
   {
     "id": "task26",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_parrot.mp3",
     "taskanswer": "option2",
     "images":
@@ -614,6 +647,7 @@
   },
   {
     "id": "task27",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_rooster.mp3",
     "taskanswer": "option3",
     "images":
@@ -637,6 +671,7 @@
   },
   {
     "id": "task28",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_squirrel.mp3",
     "taskanswer": "option1",
     "images":
@@ -660,6 +695,7 @@
   },
   {
     "id": "task29",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_wolf.mp3",
     "taskanswer": "option2",
     "images":
@@ -683,6 +719,7 @@
   },
   {
     "id": "task30",
+    "difficulty": "langThreeTasks",
     "taskaudio": "../../aud/animals/select_hedgehog.mp3",
     "taskanswer": "option3",
     "images":

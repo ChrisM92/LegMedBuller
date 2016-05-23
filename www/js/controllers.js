@@ -49,8 +49,10 @@ angular.module('starter.controllers', [])
     {
       var taskCounter = 0;
 
+
       console.log("id: ", id);
       $scope.tasks = res.data;
+      $scope.difficulty = $scope.tasks[id].difficulty;
 
 
       var loop = function ()
@@ -114,6 +116,7 @@ angular.module('starter.controllers', [])
       if ($scope.tasks[id].taskanswer === option)
       {
         console.log("correct answer");
+        console.log("difficulty value: ", $scope.difficulty)
         if ($window.cordova)
         {
           var audsrc = "../../aud/interface/Correct.mp3";
