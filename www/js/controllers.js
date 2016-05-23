@@ -11,9 +11,9 @@ angular.module('starter.controllers', [])
     }
   })
 
-  .controller('LanguageCtrl', function ($scope, Chats)
+  .controller('LanguageAgeCtrl', function ($scope, Chats)
   {
-    console.log("LanguageCtrl controller called");
+    console.log("LanguageAgeCtrl controller called");
     $scope.playButtonSound = function()
     {
       console.log("Played button sound");
@@ -97,7 +97,7 @@ angular.module('starter.controllers', [])
         }
       };
 
-      loop();
+      $timeout(loop, 2000);
     });
 
     $scope.$on('$destroy', function ()
@@ -189,6 +189,6 @@ angular.module('starter.controllers', [])
 
     $scope.$on('$destroy', function ()
     {
-      console.log("Spyt ud");
+      console.log("TaskCtrl Destroyed");
     })
   });

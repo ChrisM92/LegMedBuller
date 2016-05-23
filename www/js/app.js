@@ -61,12 +61,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       })
 
-      .state('tab.sprog', {
-        url: '/sprog',
+      .state('tab.LangAgeSelect', {
+        url: '/LangAgeSelect',
         views: {
-          'tab-sprog': {
-            templateUrl: 'templates/tab-sprog.html',
-            controller: 'LanguageCtrl'
+          'tab-LangAgeSelect': {
+            templateUrl: 'templates/tab-LangAgeSelect.html',
+            controller: 'LanguageAgeCtrl'
           }
         }
       })
@@ -91,17 +91,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       })
 
-      .state('tab.tasks', {
-        url: '/tasks',
+      .state('tab.langOneTasks', {
+        url: '/langOneTasks',
         views: {
-          'tab-tasks': {
-            templateUrl: 'templates/tab-langTasks.html',
+          'tab-langOneTasks': {
+            templateUrl: 'templates/tab-langOneTasks.html',
             controller: 'TaskCtrl'
           }
         }
       })
 
-      .state('tab.oneplustask', {
+      .state('tab.choiceGame', {
         url: '/choiceGame/:id',
         views: {
           'tab-choiceGame': {

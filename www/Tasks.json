@@ -243,7 +243,7 @@
 
   {
     "id": "task8",
-    "taskaudio": "../../aud/Vælg_blå_trekant.mp3",
+    "taskaudio": "../../aud/shapes/Vælg_blå_trekant.mp3",
     "taskanswer": "option1",
     "images":
     [
