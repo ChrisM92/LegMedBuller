@@ -218,7 +218,7 @@
   },
 
   {
-    "id": "task8",
+    "id": "task10",
     "taskaudio": "../../aud/shapes/Vælg_grøn_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -242,7 +242,7 @@
   },
 
   {
-    "id": "task8",
+    "id": "task11",
     "taskaudio": "../../aud/shapes/Vælg_blå_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -266,7 +266,7 @@
   },
 
   {
-    "id": "task8",
+    "id": "task12",
     "taskaudio": "../../aud/shapes/Vælg_rød_trekant.mp3",
     "taskanswer": "option1",
     "images":
@@ -280,6 +280,422 @@
       "../../aud/shapes/Rød_trekant.mp3",
       "../../aud/shapes/Blå_cirkel.mp3",
       "../../aud/shapes/Grøn_firkant.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+
+  {
+    "id": "task13",
+    "taskaudio": "../../aud/animals/select_cat.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/cat.png",
+      "../../img/dyr/dog.png",
+      "../../img/dyr/rabbit.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/cat.mp3",
+      "../../aud/animals/dog.mp3",
+      "../../aud/animals/rabbit.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+
+  {
+    "id": "task14",
+    "taskaudio": "../../aud/animals/select_dog.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/cat.png",
+      "../../img/dyr/dog.png",
+      "../../img/dyr/rabbit.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/cat.mp3",
+      "../../aud/animals/dog.mp3",
+      "../../aud/animals/rabbit.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task15",
+    "taskaudio": "../../aud/animals/select_rabbit.mp3",
+    "taskanswer": "option3",
+    "images":
+    [
+      "../../img/dyr/cat.png",
+      "../../img/dyr/dog.png",
+      "../../img/dyr/rabbit.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/cat.mp3",
+      "../../aud/animals/dog.mp3",
+      "../../aud/animals/rabbit.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task16",
+    "taskaudio": "../../aud/animals/select_sheep.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/sheep.png",
+      "../../img/dyr/pig.png",
+      "../../img/dyr/cow.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/sheep.mp3",
+      "../../aud/animals/pig.mp3",
+      "../../aud/animals/cow.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task17",
+    "taskaudio": "../../aud/animals/select_pig.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/sheep.png",
+      "../../img/dyr/pig.png",
+      "../../img/dyr/cow.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/sheep.mp3",
+      "../../aud/animals/pig.mp3",
+      "../../aud/animals/cow.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task18",
+    "taskaudio": "../../aud/animals/select_cow.mp3",
+    "taskanswer": "option3",
+    "images":
+    [
+      "../../img/dyr/sheep.png",
+      "../../img/dyr/pig.png",
+      "../../img/dyr/cow.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/sheep.mp3",
+      "../../aud/animals/pig.mp3",
+      "../../aud/animals/cow.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task19",
+    "taskaudio": "../../aud/animals/select_horse.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/horse.png",
+      "../../img/dyr/hen.png",
+      "../../img/dyr/bear.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/horse.mp3",
+      "../../aud/animals/hen.mp3",
+      "../../aud/animals/bear.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task20",
+    "taskaudio": "../../aud/animals/select_hen.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/horse.png",
+      "../../img/dyr/hen.png",
+      "../../img/dyr/bear.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/horse.mp3",
+      "../../aud/animals/hen.mp3",
+      "../../aud/animals/bear.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task21",
+    "taskaudio": "../../aud/animals/select_bear.mp3",
+    "taskanswer": "option3",
+    "images":
+    [
+      "../../img/dyr/horse.png",
+      "../../img/dyr/hen.png",
+      "../../img/dyr/bear.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/horse.mp3",
+      "../../aud/animals/hen.mp3",
+      "../../aud/animals/bear.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task22",
+    "taskaudio": "../../aud/animals/select_eagel.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/eagel.png",
+      "../../img/dyr/fox.png",
+      "../../img/dyr/hamster.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/eagel.mp3",
+      "../../aud/animals/fox.mp3",
+      "../../aud/animals/hamster.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task23",
+    "taskaudio": "../../aud/animals/select_fox.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/eagel.png",
+      "../../img/dyr/fox.png",
+      "../../img/dyr/hamster.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/eagel.mp3",
+      "../../aud/animals/fox.mp3",
+      "../../aud/animals/hamster.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+  "id": "task24",
+  "taskaudio": "../../aud/animals/select_hamster.mp3",
+  "taskanswer": "option3",
+  "images":
+  [
+    "../../img/dyr/eagel.png",
+    "../../img/dyr/fox.png",
+    "../../img/dyr/hamster.png"
+  ],
+  "audio":
+  [
+    "../../aud/animals/eagel.mp3",
+    "../../aud/animals/fox.mp3",
+    "../../aud/animals/hamster.mp3"
+  ],
+  "milliseconds":
+  [
+    3000,
+    3000,
+    3000
+  ]
+},
+  {
+    "id": "task25",
+    "taskaudio": "../../aud/animals/select_owl.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/owl.png",
+      "../../img/dyr/parrot.png",
+      "../../img/dyr/rooster.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/owl.mp3",
+      "../../aud/animals/parrot.mp3",
+      "../../aud/animals/rooster.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task26",
+    "taskaudio": "../../aud/animals/select_parrot.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/owl.png",
+      "../../img/dyr/parrot.png",
+      "../../img/dyr/rooster.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/owl.mp3",
+      "../../aud/animals/parrot.mp3",
+      "../../aud/animals/rooster.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task27",
+    "taskaudio": "../../aud/animals/select_rooster.mp3",
+    "taskanswer": "option3",
+    "images":
+    [
+      "../../img/dyr/owl.png",
+      "../../img/dyr/parrot.png",
+      "../../img/dyr/rooster.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/owl.mp3",
+      "../../aud/animals/parrot.mp3",
+      "../../aud/animals/rooster.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task28",
+    "taskaudio": "../../aud/animals/select_squirrel.mp3",
+    "taskanswer": "option1",
+    "images":
+    [
+      "../../img/dyr/squirrel.png",
+      "../../img/dyr/wolf.png",
+      "../../img/dyr/hedgehog.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/squirrel.mp3",
+      "../../aud/animals/wolf.mp3",
+      "../../aud/animals/hedgehog.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task29",
+    "taskaudio": "../../aud/animals/select_wolf.mp3",
+    "taskanswer": "option2",
+    "images":
+    [
+      "../../img/dyr/squirrel.png",
+      "../../img/dyr/wolf.png",
+      "../../img/dyr/hedgehog.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/squirrel.mp3",
+      "../../aud/animals/wolf.mp3",
+      "../../aud/animals/hedgehog.mp3"
+    ],
+    "milliseconds":
+    [
+      3000,
+      3000,
+      3000
+    ]
+  },
+  {
+    "id": "task30",
+    "taskaudio": "../../aud/animals/select_hedgehog.mp3",
+    "taskanswer": "option3",
+    "images":
+    [
+      "../../img/dyr/squirrel.png",
+      "../../img/dyr/wolf.png",
+      "../../img/dyr/hedgehog.png"
+    ],
+    "audio":
+    [
+      "../../aud/animals/squirrel.mp3",
+      "../../aud/animals/wolf.mp3",
+      "../../aud/animals/hedgehog.mp3"
     ],
     "milliseconds":
     [
