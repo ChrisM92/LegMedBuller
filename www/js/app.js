@@ -101,6 +101,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       })
 
+      .state('tab.langThreeTasks', {
+        url: '/langThreeTasks',
+        views: {
+          'tab-langThreeTasks': {
+            templateUrl: 'templates/tab-langThreeTasks.html',
+            controller: 'TaskCtrl'
+          }
+        }
+      })
+
       .state('tab.choiceGame', {
         url: '/choiceGame/:id',
         views: {
