@@ -3,19 +3,19 @@
   {
     "id": "task1",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_cirkel.mp3",
+    "taskaudio": "aud/shapes/select_circle.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Trekant.mp3",
-      "../../aud/shapes/Cirkel.mp3",
-      "../../aud/shapes/Firkant.mp3"
+      "aud/shapes/triangle.mp3",
+      "aud/shapes/circle.mp3",
+      "aud/shapes/square.mp3"
     ],
     "milliseconds":
     [
@@ -28,19 +28,19 @@
   {
     "id": "task2",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_trekant.mp3",
+    "taskaudio": "aud/shapes/select_triangle.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Trekant.mp3",
-      "../../aud/shapes/Cirkel.mp3",
-      "../../aud/shapes/Firkant.mp3"
+      "aud/shapes/triangle.mp3",
+      "aud/shapes/circle.mp3",
+      "aud/shapes/square.mp3"
     ],
     "milliseconds":
     [
@@ -53,19 +53,19 @@
   {
     "id": "task3",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_firkant.mp3",
+    "taskaudio": "aud/shapes/select_square.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Trekant.mp3",
-      "../../aud/shapes/Cirkel.mp3",
-      "../../aud/shapes/Firkant.mp3"
+      "aud/shapes/triangle.mp3",
+      "aud/shapes/circle.mp3",
+      "aud/shapes/square.mp3"
     ],
     "milliseconds":
     [
@@ -79,19 +79,19 @@
   {
     "id": "task4",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_blå_cirkel.mp3",
+    "taskaudio": "aud/shapes/select_blue_circle.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/former/RedTriangle.png",
-      "../../img/former/BlueCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/red_triangle.png",
+      "img/former/blue_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Rød_trekant.mp3",
-      "../../aud/shapes/Blå_cirkel.mp3",
-      "../../aud/shapes/Grøn_firkant.mp3"
+      "aud/shapes/red_triangle.mp3",
+      "aud/shapes/blue_circle.mp3",
+      "aud/shapes/green_square.mp3"
     ],
     "milliseconds":
     [
@@ -104,19 +104,19 @@
   {
     "id": "task5",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_grøn_cirkel.mp3",
+    "taskaudio": "aud/shapes/select_green_circle.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/GreenCircle.png",
-      "../../img/former/RedSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/green_circle.png",
+      "img/former/red_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Blå_trekant.mp3",
-      "../../aud/shapes/Grøn_cirkel.mp3",
-      "../../aud/shapes/Rød_firkant.mp3"
+      "aud/shapes/blue_triangle.mp3",
+      "aud/shapes/green_circle.mp3",
+      "aud/shapes/red_square.mp3"
     ],
     "milliseconds":
     [
@@ -129,19 +129,19 @@
   {
     "id": "task6",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_rød_cirkel.mp3",
+    "taskaudio": "aud/shapes/select_red_circle.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Blå_trekant.mp3",
-      "../../aud/shapes/Rød_cirkel.mp3",
-      "../../aud/shapes/Grøn_firkant.mp3"
+      "aud/shapes/blue_triangle.mp3",
+      "aud/shapes/red_circle.mp3",
+      "aud/shapes/green_square.mp3"
     ],
     "milliseconds":
     [
@@ -154,19 +154,19 @@
   {
     "id": "task7",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_blå_firkant.mp3",
+    "taskaudio": "aud/shapes/select_blue_square.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/former/GreenTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/BlueSquare.png"
+      "img/former/green_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/blue_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Grøn_trekant.mp3",
-      "../../aud/shapes/Rød_cirkel.mp3",
-      "../../aud/shapes/Blå_firkant.mp3"
+      "aud/shapes/green_triangle.mp3",
+      "aud/shapes/red_circle.mp3",
+      "aud/shapes/blue_square.mp3"
     ],
     "milliseconds":
     [
@@ -179,19 +179,19 @@
   {
     "id": "task8",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_grøn_firkant.mp3",
+    "taskaudio": "aud/shapes/select_green_square.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Blå_trekant.mp3",
-      "../../aud/shapes/Rød_cirkel.mp3",
-      "../../aud/shapes/Grøn_firkant.mp3"
+      "aud/shapes/blue_triangle.mp3",
+      "aud/shapes/red_circle.mp3",
+      "aud/shapes/green_square.mp3"
     ],
     "milliseconds":
     [
@@ -204,19 +204,19 @@
   {
     "id": "task9",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_rød_firkant.mp3",
+    "taskaudio": "aud/shapes/select_red_square.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/GreenCircle.png",
-      "../../img/former/RedSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/green_circle.png",
+      "img/former/red_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Blå_trekant.mp3",
-      "../../aud/shapes/Grøn_cirkel.mp3",
-      "../../aud/shapes/Rød_firkant.mp3"
+      "aud/shapes/blue_triangle.mp3",
+      "aud/shapes/green_circle.mp3",
+      "aud/shapes/red_square.mp3"
     ],
     "milliseconds":
     [
@@ -229,19 +229,19 @@
   {
     "id": "task10",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_grøn_trekant.mp3",
+    "taskaudio": "aud/shapes/select_green_triangle.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/former/GreenTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/BlueSquare.png"
+      "img/former/green_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/blue_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Grøn_trekant.mp3",
-      "../../aud/shapes/Rød_cirkel.mp3",
-      "../../aud/shapes/Blå_firkant.mp3"
+      "aud/shapes/green_triangle.mp3",
+      "aud/shapes/red_circle.mp3",
+      "aud/shapes/blue_square.mp3"
     ],
     "milliseconds":
     [
@@ -254,19 +254,19 @@
   {
     "id": "task11",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_blå_trekant.mp3",
+    "taskaudio": "aud/shapes/select_blue_triangle.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/former/BlueTriangle.png",
-      "../../img/former/RedCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/blue_triangle.png",
+      "img/former/red_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Blå_trekant.mp3",
-      "../../aud/shapes/Rød_cirkel.mp3",
-      "../../aud/shapes/Grøn_firkant.mp3"
+      "aud/shapes/blue_triangle.mp3",
+      "aud/shapes/red_circle.mp3",
+      "aud/shapes/green_square.mp3"
     ],
     "milliseconds":
     [
@@ -279,19 +279,19 @@
   {
     "id": "task12",
     "difficulty": "langOneTasks",
-    "taskaudio": "../../aud/shapes/Vælg_rød_trekant.mp3",
+    "taskaudio": "aud/shapes/select_red_triangle.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/former/RedTriangle.png",
-      "../../img/former/BlueCircle.png",
-      "../../img/former/GreenSquare.png"
+      "img/former/red_triangle.png",
+      "img/former/blue_circle.png",
+      "img/former/green_square.png"
     ],
     "audio":
     [
-      "../../aud/shapes/Rød_trekant.mp3",
-      "../../aud/shapes/Blå_cirkel.mp3",
-      "../../aud/shapes/Grøn_firkant.mp3"
+      "aud/shapes/red_triangle.mp3",
+      "aud/shapes/blue_circle.mp3",
+      "aud/shapes/green_square.mp3"
     ],
     "milliseconds":
     [
@@ -311,19 +311,19 @@
   {
     "id": "task13",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_cat.mp3",
+    "taskaudio": "aud/animals/select_cat.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/cat.png",
-      "../../img/dyr/dog.png",
-      "../../img/dyr/rabbit.png"
+      "img/dyr/cat.png",
+      "img/dyr/dog.png",
+      "img/dyr/rabbit.png"
     ],
     "audio":
     [
-      "../../aud/animals/cat.mp3",
-      "../../aud/animals/dog.mp3",
-      "../../aud/animals/rabbit.mp3"
+      "aud/animals/cat.mp3",
+      "aud/animals/dog.mp3",
+      "aud/animals/rabbit.mp3"
     ],
     "milliseconds":
     [
@@ -336,19 +336,19 @@
   {
     "id": "task14",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_dog.mp3",
+    "taskaudio": "aud/animals/select_dog.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/cat.png",
-      "../../img/dyr/dog.png",
-      "../../img/dyr/rabbit.png"
+      "img/dyr/cat.png",
+      "img/dyr/dog.png",
+      "img/dyr/rabbit.png"
     ],
     "audio":
     [
-      "../../aud/animals/cat.mp3",
-      "../../aud/animals/dog.mp3",
-      "../../aud/animals/rabbit.mp3"
+      "aud/animals/cat.mp3",
+      "aud/animals/dog.mp3",
+      "aud/animals/rabbit.mp3"
     ],
     "milliseconds":
     [
@@ -360,19 +360,19 @@
   {
     "id": "task15",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_rabbit.mp3",
+    "taskaudio": "aud/animals/select_rabbit.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/dyr/cat.png",
-      "../../img/dyr/dog.png",
-      "../../img/dyr/rabbit.png"
+      "img/dyr/cat.png",
+      "img/dyr/dog.png",
+      "img/dyr/rabbit.png"
     ],
     "audio":
     [
-      "../../aud/animals/cat.mp3",
-      "../../aud/animals/dog.mp3",
-      "../../aud/animals/rabbit.mp3"
+      "aud/animals/cat.mp3",
+      "aud/animals/dog.mp3",
+      "aud/animals/rabbit.mp3"
     ],
     "milliseconds":
     [
@@ -384,19 +384,19 @@
   {
     "id": "task16",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_sheep.mp3",
+    "taskaudio": "aud/animals/select_sheep.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/sheep.png",
-      "../../img/dyr/pig.png",
-      "../../img/dyr/cow.png"
+      "img/dyr/sheep.png",
+      "img/dyr/pig.png",
+      "img/dyr/cow.png"
     ],
     "audio":
     [
-      "../../aud/animals/sheep.mp3",
-      "../../aud/animals/pig.mp3",
-      "../../aud/animals/cow.mp3"
+      "aud/animals/sheep.mp3",
+      "aud/animals/pig.mp3",
+      "aud/animals/cow.mp3"
     ],
     "milliseconds":
     [
@@ -408,19 +408,19 @@
   {
     "id": "task17",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_pig.mp3",
+    "taskaudio": "aud/animals/select_pig.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/sheep.png",
-      "../../img/dyr/pig.png",
-      "../../img/dyr/cow.png"
+      "img/dyr/sheep.png",
+      "img/dyr/pig.png",
+      "img/dyr/cow.png"
     ],
     "audio":
     [
-      "../../aud/animals/sheep.mp3",
-      "../../aud/animals/pig.mp3",
-      "../../aud/animals/cow.mp3"
+      "aud/animals/sheep.mp3",
+      "aud/animals/pig.mp3",
+      "aud/animals/cow.mp3"
     ],
     "milliseconds":
     [
@@ -432,19 +432,19 @@
   {
     "id": "task18",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_cow.mp3",
+    "taskaudio": "aud/animals/select_cow.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/dyr/sheep.png",
-      "../../img/dyr/pig.png",
-      "../../img/dyr/cow.png"
+      "img/dyr/sheep.png",
+      "img/dyr/pig.png",
+      "img/dyr/cow.png"
     ],
     "audio":
     [
-      "../../aud/animals/sheep.mp3",
-      "../../aud/animals/pig.mp3",
-      "../../aud/animals/cow.mp3"
+      "aud/animals/sheep.mp3",
+      "aud/animals/pig.mp3",
+      "aud/animals/cow.mp3"
     ],
     "milliseconds":
     [
@@ -456,19 +456,19 @@
   {
     "id": "task19",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_horse.mp3",
+    "taskaudio": "aud/animals/select_horse.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/horse.png",
-      "../../img/dyr/hen.png",
-      "../../img/dyr/bear.png"
+      "img/dyr/horse.png",
+      "img/dyr/hen.png",
+      "img/dyr/bear.png"
     ],
     "audio":
     [
-      "../../aud/animals/horse.mp3",
-      "../../aud/animals/hen.mp3",
-      "../../aud/animals/bear.mp3"
+      "aud/animals/horse.mp3",
+      "aud/animals/hen.mp3",
+      "aud/animals/bear.mp3"
     ],
     "milliseconds":
     [
@@ -480,19 +480,19 @@
   {
     "id": "task20",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_hen.mp3",
+    "taskaudio": "aud/animals/select_hen.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/horse.png",
-      "../../img/dyr/hen.png",
-      "../../img/dyr/bear.png"
+      "img/dyr/horse.png",
+      "img/dyr/hen.png",
+      "img/dyr/bear.png"
     ],
     "audio":
     [
-      "../../aud/animals/horse.mp3",
-      "../../aud/animals/hen.mp3",
-      "../../aud/animals/bear.mp3"
+      "aud/animals/horse.mp3",
+      "aud/animals/hen.mp3",
+      "aud/animals/bear.mp3"
     ],
     "milliseconds":
     [
@@ -504,19 +504,19 @@
   {
     "id": "task21",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_bear.mp3",
+    "taskaudio": "aud/animals/select_bear.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/dyr/horse.png",
-      "../../img/dyr/hen.png",
-      "../../img/dyr/bear.png"
+      "img/dyr/horse.png",
+      "img/dyr/hen.png",
+      "img/dyr/bear.png"
     ],
     "audio":
     [
-      "../../aud/animals/horse.mp3",
-      "../../aud/animals/hen.mp3",
-      "../../aud/animals/bear.mp3"
+      "aud/animals/horse.mp3",
+      "aud/animals/hen.mp3",
+      "aud/animals/bear.mp3"
     ],
     "milliseconds":
     [
@@ -528,19 +528,19 @@
   {
     "id": "task22",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_eagel.mp3",
+    "taskaudio": "aud/animals/select_eagel.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/eagle.png",
-      "../../img/dyr/fox.png",
-      "../../img/dyr/hamster.png"
+      "img/dyr/eagle.png",
+      "img/dyr/fox.png",
+      "img/dyr/hamster.png"
     ],
     "audio":
     [
-      "../../aud/animals/eagel.mp3",
-      "../../aud/animals/fox.mp3",
-      "../../aud/animals/hamster.mp3"
+      "aud/animals/eagel.mp3",
+      "aud/animals/fox.mp3",
+      "aud/animals/hamster.mp3"
     ],
     "milliseconds":
     [
@@ -552,19 +552,19 @@
   {
     "id": "task23",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_fox.mp3",
+    "taskaudio": "aud/animals/select_fox.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/eagle.png",
-      "../../img/dyr/fox.png",
-      "../../img/dyr/hamster.png"
+      "img/dyr/eagle.png",
+      "img/dyr/fox.png",
+      "img/dyr/hamster.png"
     ],
     "audio":
     [
-      "../../aud/animals/eagel.mp3",
-      "../../aud/animals/fox.mp3",
-      "../../aud/animals/hamster.mp3"
+      "aud/animals/eagel.mp3",
+      "aud/animals/fox.mp3",
+      "aud/animals/hamster.mp3"
     ],
     "milliseconds":
     [
@@ -576,19 +576,19 @@
   {
   "id": "task24",
     "difficulty": "langThreeTasks",
-  "taskaudio": "../../aud/animals/select_hamster.mp3",
+  "taskaudio": "aud/animals/select_hamster.mp3",
   "taskanswer": "option3",
   "images":
   [
-    "../../img/dyr/eagle.png",
-    "../../img/dyr/fox.png",
-    "../../img/dyr/hamster.png"
+    "img/dyr/eagle.png",
+    "img/dyr/fox.png",
+    "img/dyr/hamster.png"
   ],
   "audio":
   [
-    "../../aud/animals/eagel.mp3",
-    "../../aud/animals/fox.mp3",
-    "../../aud/animals/hamster.mp3"
+    "aud/animals/eagel.mp3",
+    "aud/animals/fox.mp3",
+    "aud/animals/hamster.mp3"
   ],
   "milliseconds":
   [
@@ -600,19 +600,19 @@
   {
     "id": "task25",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_owl.mp3",
+    "taskaudio": "aud/animals/select_owl.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/owl.png",
-      "../../img/dyr/parrot.png",
-      "../../img/dyr/rooster.png"
+      "img/dyr/owl.png",
+      "img/dyr/parrot.png",
+      "img/dyr/rooster.png"
     ],
     "audio":
     [
-      "../../aud/animals/owl.mp3",
-      "../../aud/animals/parrot.mp3",
-      "../../aud/animals/rooster.mp3"
+      "aud/animals/owl.mp3",
+      "aud/animals/parrot.mp3",
+      "aud/animals/rooster.mp3"
     ],
     "milliseconds":
     [
@@ -624,19 +624,19 @@
   {
     "id": "task26",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_parrot.mp3",
+    "taskaudio": "aud/animals/select_parrot.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/owl.png",
-      "../../img/dyr/parrot.png",
-      "../../img/dyr/rooster.png"
+      "img/dyr/owl.png",
+      "img/dyr/parrot.png",
+      "img/dyr/rooster.png"
     ],
     "audio":
     [
-      "../../aud/animals/owl.mp3",
-      "../../aud/animals/parrot.mp3",
-      "../../aud/animals/rooster.mp3"
+      "aud/animals/owl.mp3",
+      "aud/animals/parrot.mp3",
+      "aud/animals/rooster.mp3"
     ],
     "milliseconds":
     [
@@ -648,19 +648,19 @@
   {
     "id": "task27",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_rooster.mp3",
+    "taskaudio": "aud/animals/select_rooster.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/dyr/owl.png",
-      "../../img/dyr/parrot.png",
-      "../../img/dyr/rooster.png"
+      "img/dyr/owl.png",
+      "img/dyr/parrot.png",
+      "img/dyr/rooster.png"
     ],
     "audio":
     [
-      "../../aud/animals/owl.mp3",
-      "../../aud/animals/parrot.mp3",
-      "../../aud/animals/rooster.mp3"
+      "aud/animals/owl.mp3",
+      "aud/animals/parrot.mp3",
+      "aud/animals/rooster.mp3"
     ],
     "milliseconds":
     [
@@ -672,19 +672,19 @@
   {
     "id": "task28",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_squirrel.mp3",
+    "taskaudio": "aud/animals/select_squirrel.mp3",
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/squirrel.png",
-      "../../img/dyr/wolf.png",
-      "../../img/dyr/hedgehog.png"
+      "img/dyr/squirrel.png",
+      "img/dyr/wolf.png",
+      "img/dyr/hedgehog.png"
     ],
     "audio":
     [
-      "../../aud/animals/squirrel.mp3",
-      "../../aud/animals/wolf.mp3",
-      "../../aud/animals/hedgehog.mp3"
+      "aud/animals/squirrel.mp3",
+      "aud/animals/wolf.mp3",
+      "aud/animals/hedgehog.mp3"
     ],
     "milliseconds":
     [
@@ -696,19 +696,19 @@
   {
     "id": "task29",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_wolf.mp3",
+    "taskaudio": "aud/animals/select_wolf.mp3",
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/squirrel.png",
-      "../../img/dyr/wolf.png",
-      "../../img/dyr/hedgehog.png"
+      "img/dyr/squirrel.png",
+      "img/dyr/wolf.png",
+      "img/dyr/hedgehog.png"
     ],
     "audio":
     [
-      "../../aud/animals/squirrel.mp3",
-      "../../aud/animals/wolf.mp3",
-      "../../aud/animals/hedgehog.mp3"
+      "aud/animals/squirrel.mp3",
+      "aud/animals/wolf.mp3",
+      "aud/animals/hedgehog.mp3"
     ],
     "milliseconds":
     [
@@ -720,19 +720,19 @@
   {
     "id": "task30",
     "difficulty": "langThreeTasks",
-    "taskaudio": "../../aud/animals/select_hedgehog.mp3",
+    "taskaudio": "aud/animals/select_hedgehog.mp3",
     "taskanswer": "option3",
     "images":
     [
-      "../../img/dyr/squirrel.png",
-      "../../img/dyr/wolf.png",
-      "../../img/dyr/hedgehog.png"
+      "img/dyr/squirrel.png",
+      "img/dyr/wolf.png",
+      "img/dyr/hedgehog.png"
     ],
     "audio":
     [
-      "../../aud/animals/squirrel.mp3",
-      "../../aud/animals/wolf.mp3",
-      "../../aud/animals/hedgehog.mp3"
+      "aud/animals/squirrel.mp3",
+      "aud/animals/wolf.mp3",
+      "aud/animals/hedgehog.mp3"
     ],
     "milliseconds":
     [

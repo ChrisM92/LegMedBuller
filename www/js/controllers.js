@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/interface/button-14.mp3";
+      $scope.media.src = "aud/interface/button_click.mp3";
       $scope.media.play();
     }
   })
@@ -18,7 +18,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/interface/button-14.mp3";
+      $scope.media.src = "aud/interface/button_click.mp3";
       $scope.media.play();
     }
   })
@@ -119,7 +119,7 @@ angular.module('starter.controllers', [])
         console.log("difficulty value: ", $scope.difficulty)
         if ($window.cordova)
         {
-          var audsrc = "../../aud/interface/Correct.mp3";
+          var audsrc = "aud/interface/correct_sound.mp3";
 
           if (ionic.platform.is('android'))
           {
@@ -133,7 +133,7 @@ angular.module('starter.controllers', [])
         {
 
           $scope.media = new Audio();
-          $scope.media.src = "../../aud/interface/Correct.mp3";
+          $scope.media.src = "aud/interface/correct_sound.mp3";
           $scope.media.play();
         }
 
@@ -144,7 +144,7 @@ angular.module('starter.controllers', [])
         console.log("wrong answer");
         if ($window.cordova)
         {
-          var audsrc = "../../aud/interface/Error.mp3";
+          var audsrc = "aud/interface/error_sound.mp3";
 
           if (ionic.platform.is('android'))
           {
@@ -158,7 +158,7 @@ angular.module('starter.controllers', [])
         {
 
           $scope.media = new Audio();
-          $scope.media.src = "../../aud/interface/Error.mp3";
+          $scope.media.src = "aud/interface/error_sound.mp3";
           $scope.media.play();
         }
       }
@@ -186,7 +186,7 @@ angular.module('starter.controllers', [])
     {
       console.log("Played button sound");
       $scope.media = new Audio();
-      $scope.media.src = "../../aud/interface/button-14.mp3";
+      $scope.media.src = "aud/interface/button_click.mp3";
       $scope.media.play();
     }
 
