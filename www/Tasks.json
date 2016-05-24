@@ -532,7 +532,7 @@
     "taskanswer": "option1",
     "images":
     [
-      "../../img/dyr/eagel.png",
+      "../../img/dyr/eagle.png",
       "../../img/dyr/fox.png",
       "../../img/dyr/hamster.png"
     ],
@@ -556,7 +556,7 @@
     "taskanswer": "option2",
     "images":
     [
-      "../../img/dyr/eagel.png",
+      "../../img/dyr/eagle.png",
       "../../img/dyr/fox.png",
       "../../img/dyr/hamster.png"
     ],
@@ -580,7 +580,7 @@
   "taskanswer": "option3",
   "images":
   [
-    "../../img/dyr/eagel.png",
+    "../../img/dyr/eagle.png",
     "../../img/dyr/fox.png",
     "../../img/dyr/hamster.png"
   ],
