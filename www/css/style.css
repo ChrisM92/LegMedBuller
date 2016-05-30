@@ -1,4 +1,8 @@
 /* Empty. Add your own CSS if you like */
+@font-face { font-family: "Berlin Sans FB Demi"; src: url('../fonts/BRLNSB.TTF'); }
+@font-face { font-family: "Berlin Sans FB Demi"; src: url('../fonts/BRLNSDB.TTF'); }
+@font-face { font-family: "Berlin Sans FB Demi"; src: url('../fonts/BRLNSR.TTF'); }
+
 
 .scroll-content {
 
@@ -16,12 +20,6 @@
   transition:all 0.3s ease;
 
 }
-
-/* img
-{
-  position: fixed;
-  z-index: 1;
-}*/
 
 .headline{
   width:100%;
@@ -80,62 +78,91 @@
 /*OnePlusTask CSS*/
 
 #clouds{
-  padding: 50px 0;
+  padding: 100px 0;
+
 }
 
+/*Time to finalise the cloud shape*/
 .cloud {
-  width: 200px;
-  height: 60px;
-  position: fixed;
-  z-index: 1;
+  width: 200px; height: 60px;
+  background: #fff;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  position: relative;
 }
 
 .cloud:before, .cloud:after {
   content: '';
-  position: fixed;
-  width: 100px;
-  height: 80px;
-  left: 10px;
+  position: absolute;
+  background: #fff;
+  width: 100px; height: 80px;
+  position: absolute; top: -15px; left: 10px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
   -moz-transform: rotate(30deg);
 }
 
 .cloud:after {
-  width: 120px;
-  height: 120px;
-  left: auto;
-  right: 15px;
+  width: 120px; height: 120px;
+  top: -55px; left: auto; right: 15px;
 }
 
+/*Time to animate*/
 .x1 {
-  -webkit-animation: moveclouds 80s linear infinite;
-  -moz-animation: moveclouds 80s linear infinite;
-  -o-animation: moveclouds 80s linear infinite;
-  -webkit-transform: scale(0.4);
-  -moz-transform: scale(0.4);
-  transform: scale(0.4);
+  -webkit-animation: moveclouds 55s linear infinite;
+  -moz-animation: moveclouds 55s linear infinite;
+  -o-animation: moveclouds 55s linear infinite;
 }
 
+/*variable speed, opacity, and position of clouds for realistic effect*/
 .x2 {
   left: 200px;
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  transform: scale(0.5);
-  -webkit-animation: moveclouds 70s linear infinite;
-  -moz-animation: moveclouds 70s linear infinite;
-  -o-animation: moveclouds 70s linear infinite;
-}
-
-.x3 {
-  left: -250px;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
-  opacity: 1;
-  -webkit-animation: moveclouds 60s linear infinite;
-  -moz-animation: moveclouds 60s linear infinite;
-  -o-animation: moveclouds 60s linear infinite;
+  opacity: 0.6; /*opacity proportional to the size*/
+  /*Speed will also be proportional to the size and opacity*/
+  /*More the speed. Less the time in 's' = seconds*/
+  -webkit-animation: moveclouds 45s linear infinite;
+  -moz-animation: moveclouds 45s linear infinite;
+  -o-animation: moveclouds 45s linear infinite;
+}
+
+.x3 {
+  left: -250px; top: -200px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.8; /*opacity proportional to the size*/
+  -webkit-animation: moveclouds 50s linear infinite;
+  -moz-animation: moveclouds 50s linear infinite;
+  -o-animation: moveclouds 50s linear infinite;
+}
+
+.x4 {
+  left: 470px; top: -250px;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+  opacity: 0.75; /*opacity proportional to the size*/
+  -webkit-animation: moveclouds 40s linear infinite;
+  -moz-animation: moveclouds 40s linear infinite;
+  -o-animation: moveclouds 40s linear infinite;
+}
+
+.x5 {
+  left: -150px; top: -150px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.8; /*opacity proportional to the size*/
+  -webkit-animation: moveclouds 35s linear infinite;
+  -moz-animation: moveclouds 35s linear infinite;
+  -o-animation: moveclouds 35s linear infinite;
 }
 
 @-webkit-keyframes moveclouds {
@@ -158,14 +185,14 @@
   margin-bottom: 25%;
 }
 
-.sun{
+.sun {
   width:800px;
   margin:0 auto;
   z-index: 0;
 }
 
-#grass-box{
-  width:1024px;
+#grass-box {
+  width:100%;
   margin-bottom: -1%;
   padding: 0;
   position: fixed;
@@ -173,8 +200,7 @@
   bottom:0;
 }
 
-.grass img
-{
+.grass img {
   margin: 0;
   padding: 0;
   height: 248px;
@@ -191,69 +217,3 @@ ion-pane {
   background-repeat: no-repeat;
   background-position: center;"
 }
-
-/*Shake*/
-
-@-webkit-keyframes spaceboots {
-  0% { -webkit-transform: translate(3px, 2px) rotate(0deg); }
-  10% { -webkit-transform: translate(-2px, -3px) rotate(-0deg); }
-  20% { -webkit-transform: translate(-4px, 1px) rotate(0deg); }
-  30% { -webkit-transform: translate(1px, 3px) rotate(0deg); }
-  40% { -webkit-transform: translate(2px, -2px) rotate(0deg); }
-  50% { -webkit-transform: translate(-2px, 3px) rotate(-0deg); }
-  60% { -webkit-transform: translate(-4px, 2px) rotate(0deg); }
-  70% { -webkit-transform: translate(3px, 2px) rotate(-0deg); }
-  80% { -webkit-transform: translate(-2px, -2px) rotate(0deg); }
-  90% { -webkit-transform: translate(3px, 3px) rotate(0deg); }
-  100% { -webkit-transform: translate(3px, 2px) rotate(-0deg); }
-}
-#shake {
-  -webkit-animation-name: spaceboots;
-  -webkit-animation-duration: 20s;
-  -webkit-transform-origin:50% 50%;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes spaceboots {
-  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
-  10% { -webkit-transform: translate(-1px, -2px) rotate(1deg); }
-  20% { -webkit-transform: translate(-3px, 0px) rotate(-1deg); }
-  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
-  40% { -webkit-transform: translate(1px, -1px) rotate(-1deg); }
-  50% { -webkit-transform: translate(-1px, 2px) rotate(1deg); }
-  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
-  70% { -webkit-transform: translate(2px, 1px) rotate(1deg); }
-  80% { -webkit-transform: translate(-1px, -1px) rotate(-1deg); }
-  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-  100% { -webkit-transform: translate(2px, 1px) rotate(1deg); }
-}
-#shake2 {
-  -webkit-animation-name: spaceboots;
-  -webkit-animation-duration: 25s;
-  -webkit-transform-origin:50% 50%;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes spaceboots {
-  0% { -webkit-transform: translate(4px, 3px) rotate(0deg); }
-  10% { -webkit-transform: translate(-3px, -4px) rotate(-1deg); }
-  20% { -webkit-transform: translate(-5px, 2px) rotate(1deg); }
-  30% { -webkit-transform: translate(2px, 4px) rotate(0deg); }
-  40% { -webkit-transform: translate(3px, -3px) rotate(1deg); }
-  50% { -webkit-transform: translate(-3px, 4px) rotate(-1deg); }
-  60% { -webkit-transform: translate(-5px, 3px) rotate(0deg); }
-  70% { -webkit-transform: translate(4px, 3px) rotate(-1deg); }
-  80% { -webkit-transform: translate(-3px, -3px) rotate(1deg); }
-  90% { -webkit-transform: translate(4px, 4px) rotate(0deg); }
-  100% { -webkit-transform: translate(4px, 3px) rotate(-1deg); }
-}
-#shake3 {
-  -webkit-animation-name: spaceboots;
-  -webkit-animation-duration: 30s;
-  -webkit-transform-origin:50% 50%;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-}
-
