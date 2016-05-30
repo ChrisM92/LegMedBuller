@@ -2,7 +2,7 @@
   <ion-pane>
     <ion-content class="shapewindow">
       <div class="row-top">
-        <div class="col col-80 col-offset-10"><img class="easy" src="img/logoer/choose_age_group.png"></div>
+        <div class="col col-80 col-offset-10"><img class="easy" ng-src="img/logoer/choose_age_group.png"></div>
       </div>
       <div class="row-mid-1">
         <div class="col col-60 col-offset-20" id="shake" ng-click="playButtonSound()">
@@ -25,20 +25,21 @@
           </button>
         </div>
       </div>
-      <div class="col col-25 col-offset-25 text-center" ng-click="playButtonSound()">
-        <a href="#/tab/main" style="text-decoration: none">
-          <i class="icon ion-reply" style="font-size: 50px; color:white;"></i>
+      <div class="col col-33 col-offset-33 text-center" ng-click="playButtonSound()">
+        <a href="#/tab/main" style="text-decoration: none;">
+          <i class="icon ion-arrow-left-c" style="font-size: 100px; color:white; line-height: 0; text-shadow: 2px 2px 2px rgba(0,0,0,0.5);"></i>
+          <p style="color:white; font-size: 20px; text-shadow: 2px 2px 2px rgba(0,0,0,0.5); line-height: 0;">Menu</p>
         </a>
       </div>
     </ion-content>
     <div id="clouds">
-      <div class="cloud x1"><img src="img/baggrunde/cloud1.png"></div>
-      <div class="cloud x2"><img src="img/baggrunde/cloud2.png"></div>
-      <div class="cloud x3"><img src="img/baggrunde/cloud1.png"></div>
+      <div class="cloud x1"><img ng-src="img/baggrunde/cloud1.png"></div>
+      <div class="cloud x2"><img ng-src="img/baggrunde/cloud2.png"></div>
+      <div class="cloud x3"><img ng-src="img/baggrunde/cloud1.png"></div>
     </div>
     <div id="grass-box">
       <div class="grass">
-        <img src="img/baggrunde/grass.png" width="1024">
+        <img ng-src="img/baggrunde/grass.png" width="1024">
       </div>
     </div>
   </ion-pane>

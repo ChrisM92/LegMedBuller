@@ -166,18 +166,6 @@ angular.module('starter.controllers', [])
 
   })
 
-  //.controller('LangaugeCtrl', function ($scope)
-  //{
-    //console.log("LanguageCtrl controller called");
-    //$scope.playButtonSound = function()
-  //  {
-  //    console.log("Played button sound");
-  //    $scope.media = new Audio();
-  //    $scope.media.src = "../../aud/button-14.mp3";
-  //    $scope.media.play();
-  //  }
-  //})
-
   .controller('TaskCtrl', function ($scope)
   {
     console.log("TaskCtrl controller called");
